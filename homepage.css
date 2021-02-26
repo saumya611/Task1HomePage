@@ -1,0 +1,52 @@
+a{
+    position: relative;
+    text-decoration: none;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: black;
+
+
+    @media (min-width: 600px){
+        justify-content: center;
+    }
+}
+
+.nav-left, .nav-right{        
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background-color: black;
+    padding: 3em;
+    margin: auto;
+}
+
+.home:hover, .contact:hover, .about:hover{
+    color: orange;
+  }
+
+.flexbox ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+.home, .contact, .about{
+    color: paleturquoise;
+}
+
+.flexbox div{
+    display: flex;
+    justify-content: center;
+}
+
+.form h1{
+    text-align: center;
+}
